@@ -52,7 +52,7 @@ int stack_pop(my_stack* box)
 
     if(stack_check(box) != STACK_IS_OKEY)   STACK_CHECK
 
-    return box -> data[ -> counter];
+    return box -> data[box -> counter];
 }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------
