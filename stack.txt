@@ -1,0 +1,63 @@
+
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+33
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+33
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+33
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+33
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_init, LINE 31
+0
+ERROR IN FILE main.cpp, FUNCTION stack_pop, LINE 54
+33
+ERROR IN FILE main.cpp, FUNCTION stack_pop, LINE 54
+33
+ERROR IN FILE main.cpp, FUNCTION stack_pop, LINE 54
+33
+ERROR IN FILE main.cpp, FUNCTION stack_pop, LINE 53
+33
+ERROR IN FILE main.cpp, FUNCTION stack_pop, LINE 53
+33
+ERROR IN FILE main.cpp, FUNCTION stack_pop, LINE 53
+33
