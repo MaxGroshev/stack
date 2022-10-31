@@ -30,20 +30,19 @@ void stack_init(my_stack* box)
     box -> counter = 0;
     box -> data = (int*)calloc(box -> counter , sizeof(int));
 
-    /*if(stack_check(box) != STACK_IS_OKEY)*/  STACK_CHECK
+    STACK_CHECK
 }
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
 
 void stack_push(my_stack* box, int element)
 {
-    /*if(stack_check(box) != STACK_IS_OKEY)*/   STACK_CHECK
-
+    STACK_CHECK
 
     box -> data = (int*) realloc(box -> data, (box -> counter + 1) * sizeof(int));
     box -> data[box -> counter++] = element;
 
-    /*if(stack_check(box) != STACK_IS_OKEY)*/   STACK_CHECK
+    STACK_CHECK
 }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------
@@ -52,7 +51,7 @@ int stack_pop(my_stack* box)
 {
     box -> counter--;
 
-    /*if(stack_check(box) != STACK_IS_OKEY)*/   STACK_CHECK
+    STACK_CHECK
 
     return box -> data[box -> counter];
 }
