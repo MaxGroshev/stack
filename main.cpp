@@ -3,13 +3,15 @@
 int main()
 {
     struct my_stack box = {};
-
+    int num_of_elem = 0;
     stack_init(&box);
 
-    stack_push(&box, 10);
-    stack_push(&box, 20);
-    stack_push(&box, 30);
-    stack_push(&box, 40);
+    printf("Please input amount of elements \n");
+    scanf("%d", &num_of_elem);
+    for(int i = 0; i < num_of_elem; i++)
+    {
+        stack_push(&box, i);
+    }
 
     int x = stack_pop(&box);
     int y = stack_pop(&box);
