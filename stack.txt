@@ -1,5 +1,0 @@
-ERROR IN FILE stack_functions.cpp, FUNCTION stack_pop, LINE 29, CODE OF ERROR -3
-Current cell: -1. Value of element: 0
-ERROR IN FILE stack_functions.cpp, FUNCTION stack_pop, LINE 29, CODE OF ERROR -3
-Current cell: -1. [0]
-Previous cell: -1. Value of element: 0
