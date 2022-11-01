@@ -14,7 +14,7 @@ int stack_check(my_stack* box)
 
     if(box->counter == -1)
     {
-        return OUT_OF_STACK;
+        retur OUT_OF_STACK;
     }
     return STACK_IS_OKEY;
 }
