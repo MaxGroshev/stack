@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 #include "stack_check.h"
 
 //=================================================================================================================================
@@ -18,16 +17,23 @@ enum code_of_fails
 
 //---------------------------------------------------------------------------------------------------------------------------------
 
-struct my_stack
+typedef int type_of_elem;
+
+//--------------------------------------------------------------------------------
+
+struct stack_t
 {
-    int*   data;
-    size_t counter;
+    type_of_elem* data;
+    size_t        counter;
+    size_t        capacity;
 };
 
 //-----------------------------------------------------------------------------------------------------------------------------------
 
-void stack_init  (my_stack* box);
-void stack_push  (my_stack* box, int element);
-int  stack_pop   (my_stack* box);
-int  stack_check (my_stack* box);
-void stack_delete(my_stack* box);
+void stack_init  (stack_t* box, size_t capacity);
+void stack_push  (stack_t* box, type_of_elem element);
+int  stack_pop   (stack_t* box);
+int  stack_check (stack_t* box);
+void stack_delete(stack_t* box);
+int stack_dump  (stack_t* box);
+

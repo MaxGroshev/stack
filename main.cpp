@@ -2,15 +2,14 @@
 
 int main()
 {
-    struct my_stack box = {};
-    int num_of_elem = 0;
+    struct stack_t box = {};
 
     printf("Please input amount of elements \n");
-    scanf("%d", &num_of_elem);
+    scanf("%ld", &box.capacity);
 
-    stack_init(&box);
+    stack_init(&box, box.capacity);
 
-    for(int i = 0; i < num_of_elem; i++)
+    for(int i = 0; i < box.capacity; i++)
     {
         stack_push(&box, i);
     }
@@ -21,6 +20,7 @@ int main()
     int e = stack_pop(&box);
     printf("%d %d %d %d \n", x, y, z, e);
 
+   // stack_dump(&box);
     stack_delete(&box);
     return 0;
 }
