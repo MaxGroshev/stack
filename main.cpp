@@ -8,11 +8,11 @@ int main()
     scanf("%ld", &box.capacity);
 
     stack_init(&box, box.capacity);
-
     for(int i = 0; i < box.capacity; i++)
     {
         stack_push(&box, i);
     }
+    stack_push(&box, 30);
 
     int x = stack_pop(&box);
     int y = stack_pop(&box);

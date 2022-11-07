@@ -1,11 +1,1 @@
-ERROR: Request to cell thar does not belong to stack
- -1 [0]- Current cell is out of stack
-  0 [0]
-  1 [1]
-  2 [2]
-ERROR IN FILE stack_functions.cpp, FUNCTION stack_pop, LINE 38
-ERROR: Request to cell thar does not belong to stack
- -1 [0]- Current cell is out of stack
-  0 [0]
-  1 [1]
-  2 [2]
+
