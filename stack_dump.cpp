@@ -1,11 +1,13 @@
 #include "stack.h"
 
-int stack_dump(stack_t* box)
+int stack_dump(stack_t* box, const char* DUR_FILE, const char* FUNCTION, int LINE)
 {
     int status = stack_check(box);
     FILE* print_fail = fopen("stack.txt", "a");
     if (status != 0)
     {
+        fprintf(stderr, "Error of running program, check stack.txt! \007\n");
+        fprintf(print_fail,"ERROR IN FILE %s, FUNCTION %s, LINE %d\n", DUR_FILE, FUNCTION, LINE);
         switch (status)
         {
             case OUT_OF_STACK:
@@ -32,9 +34,8 @@ int stack_dump(stack_t* box)
             }
             fprintf(print_fail,"%3d [%d]\n", i, box->data[i]);
         }
-        fclose(print_fail);
     }
-
+    fclose(print_fail);
     return status;
 }
 
