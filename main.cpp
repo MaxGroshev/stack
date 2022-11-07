@@ -20,7 +20,7 @@ int main()
     int e = stack_pop(&box);
     printf("%d %d %d %d \n", x, y, z, e);
 
-    stack_dump(&box, __FILE__, __FUNCTION__, __LINE__ );
+    stack_dump(&box, __FILE__, __FUNCTION__, __LINE__, 1);
     stack_delete(&box);
     return 0;
 }

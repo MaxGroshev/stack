@@ -16,7 +16,7 @@ void stack_push(stack_t* box, type_of_elem element)
     if (box->capacity - box->counter <= 10)
     {
         int* stack_resize = box->data;
-        stack_resize = (int*)realloc(box->data, (box->counter  + 20) * sizeof(type_of_elem));
+        stack_resize = (int*)realloc(box->data, (box->counter + 20) * sizeof(type_of_elem));
         if (box->data != NULL)
         {
             box->data = stack_resize;
