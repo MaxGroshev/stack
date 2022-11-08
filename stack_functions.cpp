@@ -40,11 +40,13 @@ void stack_push(stack_t* box, type_of_elem element)
 
 int stack_pop(stack_t* box)
 {
-    box->counter--;
 
+    box->counter--;
+    type_of_elem element = box->data[box->counter];
+    box->data[box->counter] = 0;
     STACK_CHECK
 
-    return box->data[box->counter];
+    return element;
 }
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
