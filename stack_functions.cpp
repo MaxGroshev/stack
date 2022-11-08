@@ -25,10 +25,13 @@ void stack_push(stack_t* box, type_of_elem element)
         {
             printf("It is impossible to widen size of stack\n");
         }
-
         STACK_CHECK
     }
     box->data[box->counter++] = element;
+    if (box->capacity < box->counter)
+    {
+        box->capacity++;
+    }
 
     STACK_CHECK
 }
