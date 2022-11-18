@@ -47,7 +47,7 @@ void stack_add (stack_t* box, int elem)
 
 void stack_mul (stack_t* box, int elem)
 {
-    elem = stack_pop  (box);
+    elem =  stack_pop (box);
     elem *= stack_pop (box);
     stack_push (box, elem);
     STACK_CHECK
