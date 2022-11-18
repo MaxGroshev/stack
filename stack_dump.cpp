@@ -17,7 +17,7 @@ int stack_dump(stack_t* box, const char* DUR_FILE, const char* FUNCTION, int LIN
                 break;
 
             case WRONG_INPUT:
-                fprintf(print_fail,"ERROR: Was input wrong data\n");
+                fprintf (print_fail,"ERROR: Was input wrong data\n");
                 print_stack = 1;
                 break;
 
