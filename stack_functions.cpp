@@ -43,7 +43,7 @@ int stack_pop(stack_t* box)
 
     box->counter--;
     type_of_elem element = box->data[box->counter];
-    box->data[box->counter] = 0;
+    box->data[box->counter] = 0X7777777;
     STACK_CHECK
 
     return element;
