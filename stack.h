@@ -45,6 +45,8 @@ int  stack_pop    (stack_t* box);
 int  stack_check  (stack_t* box);
 void stack_delete (stack_t* box);
 int  stack_dump   (stack_t* box, const char* DUR_FILE, const char* FUNCTION, int LINE, int print_stack);
-void stack_add    (stack_t* box);
-void stack_mul    (stack_t* box);
+//Processor functions
+void processor    (stack_t* box, int elem);
+void stack_add    (stack_t* box, int elem);
+void stack_mul    (stack_t* box, int elem);
 

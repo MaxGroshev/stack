@@ -1,9 +1,8 @@
-  0 [0]
-  1 [1]
-  2 [2]
-  3 [3]
-  4 [4]
-  5 [125269879] - Current cell
-  6 [125269879]
-  7 [125269879]
+ERROR IN FILE stack_functions.cpp, FUNCTION stack_pop, LINE 47
+ERROR: Request to cell thar does not belong to stack
+ -1 [125269879] - Current cell is out of stack
+  0 [125269879]
+  1 [125269879]
+  2 [125269879]
 -----End of the current print-----
+
